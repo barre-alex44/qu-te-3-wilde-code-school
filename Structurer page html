@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Findtheprecious</title>
+</head>
+
+<body>
+
+    <!--Nav bar-->
+
+    <header>
+        <nav class="Findtheprecious"></nav>
+        <a class="navbar">
+            <h1>
+                <p class="name"></p>Findtheprecious</p>
+        </a></h1>
+        <nav>
+            <ul>
+                <li><a href="Dangerous fellowing">Dangerous fellowship try to destroy the ring</a></li>
+                <li><a href="Fellow">The Ring</a></li>
+                <li><a href="ContactUs">Contact us</a></li>
+                <li><a href="footer">footer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Carousel Dangerous fellowing-->
+
+    <div id="Dangerous_carousel">
+        <h2>Dangerous fellowship try to destroy the ring</h2>
+        <p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
+    </div>
+
+    <!--Carousel Fellow-->
+
+    <section id="Fellow">
+        <h2>Fellows wanted dead <span>(or alive if you want to eat them later)</span></h2>
+        <nav>
+            <ul>
+                <li>
+                    <form action="Wanted"><input type="button" value="Wanted"></form>
+                </li>
+                <li>
+                    <form action="Dangerous"><input type="button" value="Dangerous"></form>
+                </li>
+                <li>
+                    <form action="Everybody"> <input type="button" value="Everybody"></form>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="profil">
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/140x140" alt="profil photo" /></a>
+            <h3>The Wizard</h3>
+            <p>Small description...</p>
+        </div>
+        <div class="profil">
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/140x140" alt="profil photo" /></a>
+            <h3>Hobbit #3</h3>
+            <p>Small description...</p>
+        </div>
+        <div class="profil">
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/140x140" alt="profil photo" /></a>
+            <h3>Yummy Dwarf</h3>
+            <p>Small description...</p>
+        </div>
+    </section>
+
+    <!--Contact us-->
+
+    <section id="ContactUs">
+        <h2>Contact us</h2>
+        <form>
+            <fieldset>
+                <label for="mail">E-mail :</label>
+                <input type="email" id="mail" name="user_mail"><br />
+                <label for="website">Website :</label>
+                <input type="url" id="website" name="user_ws"><br />
+                <label for="subject">Subject :</label>
+                <select name="subject" id="subject">
+                    <option value="seen">I have seen one of them</option>
+                    <option value="captured">I have captured one of them</option>
+                    <option value="army">I want to join your army</option>
+                </select><br />
+                <label for="message">Message :</label>
+                <textarea id="message" name="user_message"></textarea><br />
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="fellows.html">Fellows</a></li>
+                <li><a href="joinOurArmy.html">Join our Army</a></li>
+            </ul>
+            <ul>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="rewardsConditions.html">Rewards conditions</a></li>
+                <li><a href="legalMentions.html">legal mentions</a></li>
+            </ul>
+            <ul>
+                <li><a href="http://sauron4ever.com">Sauron4ever.com</a></li>
+                <li><a href="http://twitter.com">Follow him also on twitter</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
